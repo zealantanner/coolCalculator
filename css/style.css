@@ -1,0 +1,45 @@
+html, body, h1, h2, h3, h4, h5, h6, p, div, ol, ul, li {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  /* color: white; */
+  /* background-color: black; */
+}
+
+body {
+  background-color: #333;
+}
+
+#calcBox {
+  margin: 100px;
+}
+#calcBox #result {
+  border: solid white 2px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 400px;
+  height: 100px;
+  text-align: right;
+  background-color: black;
+  color: white;
+  font-size: 66.6666666667px;
+}
+#calcBox #buttons {
+  background-color: black;
+  display: flex;
+  flex-flow: wrap;
+  border: solid black 2px;
+  width: 400px;
+  height: 500px;
+}
+#calcBox #buttons button {
+  border-radius: 5px;
+  font-size: 50px;
+  width: 100px;
+  height: 100px;
+}
+#calcBox #buttons .clearButton {
+  width: 200px;
+}
+
+/*# sourceMappingURL=style.css.map */
